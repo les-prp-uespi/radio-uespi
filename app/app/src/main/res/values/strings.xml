@@ -14,8 +14,8 @@
     <string name="action_rate">Avaliar</string>
     <string name="action_about">Sobre</string>
     <string name="loading">Carregando...</string>
-    <string name="link2">https://play.google.com/store/apps/details?id=pacote</string>
-    <string name="share">Divirta-se com o melhor app de radio da Google Play, baixe em: https://play.google.com/store/apps/details?id=pacote</string>
+    <string name="link2">https://play.google.com/store/apps/details?id=br.uespi.piripiri.radio</string>
+    <string name="share">Divirta-se com o melhor app de radio da Google Play, baixe em: https://play.google.com/store/apps/details?id=br.uespi.piripiri.radio</string>
     <string name="via">Compartilhar via:</string>
     <string name="close">Fechar</string>
     <string name="app">Mais App</string>
@@ -24,4 +24,5 @@
     <string name="action_settings">Configurações</string>
     <string name="share_with_friends">Compartilhe com amigos</string>
     <string name="communication">Comunicação</string>
+    <string name="radio">Radio</string>
 </resources>

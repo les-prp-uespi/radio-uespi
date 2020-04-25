@@ -11,13 +11,28 @@
         android:gravity="center_horizontal|center_vertical"
         android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="@dimen/player_logo"
-            android:layout_height="@dimen/player_logo"
-            android:background="@android:color/transparent"
-            android:scaleType="fitXY"
-            android:src="@drawable/logo512" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/player_logo"
+                android:layout_height="@dimen/player_logo"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo512" />
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:id="@+id/progress"
+                android:layout_width="@dimen/player_progress_bar"
+                android:layout_height="@dimen/player_progress_bar"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/colorPrimary"/>
+        </RelativeLayout>
     </LinearLayout>
 
 
@@ -31,9 +46,12 @@
         android:gravity="center_horizontal|center_vertical"
         android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+        <ImageButton
+            android:id="@+id/btn_avaliar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/ic_menu_favorite" />
 
@@ -59,9 +77,12 @@
                 android:src="@drawable/pausa" />
         </RelativeLayout>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+        <ImageButton
+            android:id="@+id/btn_compartilhar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:src="@drawable/ic_menu_share_branco" />
 

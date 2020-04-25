@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="br.uespi.piripiri.radio.MainActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -23,7 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gustavorw.app.Player.NewsWebViewActivity"></activity>
+        <activity android:name="br.uespi.piripiri.radio.Player.NewsWebViewActivity"
+            android:parentActivityName="br.uespi.piripiri.radio.MainActivity"></activity>
     </application>
 
 </manifest>

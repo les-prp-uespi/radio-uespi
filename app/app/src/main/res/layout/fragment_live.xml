@@ -19,20 +19,4 @@
         app:hide_on_touch="false"
         app:surface_type="texture_view" />
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="@dimen/player_progress_bar"
-        android:layout_height="@dimen/player_progress_bar"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:indeterminate="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
 </RelativeLayout>
