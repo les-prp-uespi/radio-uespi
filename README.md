@@ -1,8 +1,19 @@
-# Aplicativo de noticías da instituição Estadual do piaui
+# Rádio UESPI
 
-![news](https://user-images.githubusercontent.com/46036174/71257006-478c1380-2311-11ea-87d7-221b6300a9cf.png)
+![news](https://github.com/les-prp-uespi/radio-uespi/blob/master/images/icone512x512.png?raw=true =256x256)
+Um aplicativo de conteúdo da UESPI
+  
 
-![player](https://user-images.githubusercontent.com/46036174/71257150-bcf7e400-2311-11ea-9568-6f1d603f9f14.png)
+## Imagens
 
+ - Tela Inicial
+![news](https://github.com/les-prp-uespi/radio-uespi/blob/master/images/1.png?raw=true =180x350)
 
-[PlayStore](https://play.google.com/store/apps/details?id=com.gustavorw.app&hl=pt_BR)
+- Tela de Notícias
+![news](https://github.com/les-prp-uespi/radio-uespi/blob/master/images/2.png?raw=true =180x350)
+
+- Exibição de notícias
+![news](https://github.com/les-prp-uespi/radio-uespi/blob/master/images/3.png?raw=true =180x350)
+
+- Compartilhamento de notícias
+![news](https://github.com/les-prp-uespi/radio-uespi/blob/master/images/4.png?raw=true =180x350)
